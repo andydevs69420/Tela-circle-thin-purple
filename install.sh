@@ -20,8 +20,9 @@ then
         fi
 	# finally copy default
 	cp -r * ~/.local/share/icons/Tela-circle-thin-purple/;
+	rm -r ~/.local/share/icons/Tela-circle-thin-purple/UNPACK-DARK;
 	# finally copy dark
-        cp -r UNPACK-DARK/* ~/.local/share/icons/Tela-circle-thin-purple-dark/;
+	cp -r UNPACK-DARK/* ~/.local/share/icons/Tela-circle-thin-purple-dark/;
 	# update
 	chown -R $USER:$USER ~/.local/share/icons/Tela-*;
 	update-icon-caches ~/.local/share/icons/*;
@@ -41,6 +42,7 @@ else
 	fi
 	# finally copy default
 	cp -r * /usr/share/icons/Tela-circle-thin-purple/;
+	rm -r /usr/share/icons/Tela-circle-thin-purple/UNPACK-DARK;
 	# finally copy dark
 	cp -r UNPACK-DARK/* /usr/share/icons/Tela-circle-thin-purple-dark/;
 	# update
