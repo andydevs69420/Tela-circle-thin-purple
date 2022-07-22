@@ -6,6 +6,8 @@ A combination of WhiteSur icon by vinceliuice (https://github.com/vinceliuice/Wh
 ### - NETWIDE
 ```bash
     sudo ./install.sh
+```
 ### - LOCAL
 ```bash
     ./install.sh
+```
